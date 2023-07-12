@@ -1,0 +1,12 @@
+package waslua:luatypes
+
+interface luatypes {
+    record number {
+        value: u64
+    }
+    dummy: func(value: number) -> number
+}
+
+world main {
+    import luatypes
+}

@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 waslua_macros = { path = "../waslua_macros" }
+wit-bindgen = "0.8.0"
